@@ -25,6 +25,7 @@ const skills = [
   {
     name: 'HTML5',
     level: '5',
+    experience: '10 mois',
     category: 'HTML',
     picture: html,
     color: 'blue',
@@ -34,6 +35,7 @@ const skills = [
   {
     name: 'CSS3',
     level: '4',
+    experience: '10 mois',
     category: 'CSS',
     picture: css,
     color: 'blue',
@@ -43,6 +45,7 @@ const skills = [
   {
     name: 'Javascript',
     level: '4',
+    experience: '2 mois',
     category: 'Front-end',
     picture: javascript,
     color: 'blue',
@@ -52,6 +55,7 @@ const skills = [
   {
     name: 'ReactJS',
     level: '5',
+    experience: '5 mois',
     category: 'Front-end',
     picture: react,
     color: 'blue',
@@ -61,6 +65,7 @@ const skills = [
   {
     name: 'Bootstrap',
     level: '5',
+    experience: '7 mois',
     category: 'CSS',
     picture: bootstrap,
     color: 'blue',
@@ -69,7 +74,8 @@ const skills = [
   },
   {
     name: 'Axios',
-    level: '5',
+    level: '4',
+    experience: '5 mois',
     category: 'Front-end',
     picture: axios,
     color: 'blue',
@@ -79,6 +85,7 @@ const skills = [
   {
     name: 'Redux',
     level: '5',
+    experience: '5 mois',
     category: 'Front-end',
     picture: redux,
     color: 'blue',
@@ -88,6 +95,7 @@ const skills = [
   {
     name: 'React-jwt',
     level: '3',
+    experience: '2 mois',
     category: 'Front-end',
     picture: jwt,
     color: 'blue',
@@ -97,6 +105,7 @@ const skills = [
   {
     name: 'React-Router-Dom',
     level: '5',
+    experience: '5 mois',
     category: 'Front-end',
     picture: reactRouterDom,
     color: 'blue',
@@ -106,6 +115,7 @@ const skills = [
   {
     name: 'emailJS',
     level: '5',
+    experience: '5 mois',
     category: 'Front-end',
     picture: emailjs,
     color: 'blue',
@@ -115,6 +125,7 @@ const skills = [
   {
     name: 'Management',
     level: '5',
+    experience: '5 ans',
     category: 'Management',
     picture: management,
     color: 'brown',
@@ -122,8 +133,9 @@ const skills = [
     id: '12',
   },
   {
-    name: 'Esprit d\'équipe',
+    name: 'Travail en équipe',
     level: '5',
+    experience: '8 ans',
     category: 'Soft skills',
     picture: team,
     color: 'brown',
@@ -133,6 +145,7 @@ const skills = [
   {
     name: 'Sociabilité',
     level: '5',
+    experience: '/',
     category: 'Soft skills',
     picture: sociabilité,
     color: 'brown',
@@ -142,6 +155,7 @@ const skills = [
   {
     name: 'Rigueur',
     level: '5',
+    experience: '/',
     category: 'Soft skills',
     picture: rigueur,
     color: 'brown',
@@ -151,6 +165,7 @@ const skills = [
   {
     name: 'Autonomie',
     level: '4',
+    experience: '/',
     category: 'Soft skills',
     picture: autonomie,
     color: 'brown',
@@ -160,6 +175,7 @@ const skills = [
   {
     name: 'Polyvalence',
     level: '4',
+    experience: '/',
     category: 'Soft skills',
     picture: polyvalence,
     color: 'brown',
@@ -169,6 +185,7 @@ const skills = [
   {
     name: 'Rédaction',
     level: '5',
+    experience: '8 ans',
     category: 'Langues',
     picture: redaction,
     color: 'brown',
@@ -178,6 +195,7 @@ const skills = [
   {
     name: 'SEO',
     level: '4',
+    experience: '8 ans',
     category: 'SEO',
     picture: seo,
     color: 'brown',
@@ -187,6 +205,7 @@ const skills = [
   {
     name: 'Anglais',
     level: '3',
+    experience: 'C1',
     category: 'Langues',
     picture: anglais,
     color: 'brown',
@@ -196,6 +215,7 @@ const skills = [
   {
     name: 'PHP',
     level: '3',
+    experience: '4 mois',
     category: 'Back-end',
     picture: php,
     color: 'blue',
@@ -205,6 +225,7 @@ const skills = [
   {
     name: 'MySql',
     level: '3',
+    experience: '4 mois',
     category: 'Back-end',
     picture: mysql,
     color: 'blue',

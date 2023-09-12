@@ -1,9 +1,11 @@
 import { createRoot } from 'react-dom/client';
 import App from 'src/components/App';
 import { BrowserRouter } from 'react-router-dom';
+import ScrollToTop from 'src/components/ScrollToTop/scrollToTop';
 
 const rootReactElement = (
   <BrowserRouter>
+    <ScrollToTop />
     <App />
   </BrowserRouter>
 );

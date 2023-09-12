@@ -4,7 +4,7 @@ import { Card, Col, Container } from 'react-bootstrap';
 import SkillLevel from './skillsLevel';
 
 const CardSkills = ({
-  name, level, picture, color, text,
+  name, level, picture, color, text, experience,
 }) => (
   <Col>
     <Container>
@@ -30,7 +30,7 @@ const CardSkills = ({
               fontSize: 'small',
             }}
           >
-            En savoir plus
+            <strong>Expérience :</strong><br />{experience}
           </Card.Text>
         </Card.Body>
         <Card.Footer
@@ -62,6 +62,7 @@ CardSkills.propTypes = {
   level: PropTypes.any.isRequired,
   color: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  experience: PropTypes.string.isRequired,
 };
 
 export default CardSkills;

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const NameFilter = ({ filteredByTheName, setFilteredByTheName }) => (
   <Container>
     <Form
-      className="mb-1 w-80 text-blue bg-meerschaum rounded p-1"
+      className="mt-3 mb-1 w-80 text-blue bg-meerschaum rounded p-1"
       aria-label="Recherche et filtres"
     >
       <Form.Group className="mb-3" controlId="formSearchFilters">
