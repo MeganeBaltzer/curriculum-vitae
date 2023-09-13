@@ -9,6 +9,7 @@ import PreviousJobs from '../PrincipalPages/PreviousJobs/previousJobs';
 import School from '../PrincipalPages/School/school';
 import SkillsPage from '../PrincipalPages/Skills/skillsPage';
 import JobsResearch from '../PrincipalPages/JobsResearch/jobsResearch';
+import Book from '../PrincipalPages/Book/book';
 
 import Contact from '../Dropdown/Contact/contact';
 
@@ -19,12 +20,13 @@ function App() {
   const isHome = location.pathname === '/';
   const isJobsResearchPage = location.pathname === '/jobsResearch';
   const isSkillsPage = location.pathname === '/skills';
+  const isMyBookPage = location.pathname === '/mybook';
 
   return (
     <div className="app">
       <Header />
 
-      <main className={isHome ? 'home-background' : isJobsResearchPage ? 'jobsResearch-background' : isSkillsPage ? 'skills-background' : 'main'}>
+      <main className={isHome ? 'home-background' : isJobsResearchPage ? 'jobsResearch-background' : isSkillsPage ? 'skills-background' : isMyBookPage ? 'book-background' : 'main'}>
         <Routes>
           <Route
             path="/"
@@ -47,6 +49,10 @@ function App() {
             element={(
               <JobsResearch />
             )}
+          />
+          <Route
+            path="/mybook"
+            element={<Book />}
           />
           <Route
             path="/contact"

@@ -25,7 +25,7 @@ const Skills = ({ filteredByTheName, filteredByCategory, skills }) => {
             .filter((skill) => skill.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(filteredByTheName.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')))
             // on filtre selon les catégories
             .filter((skill) => {
-              if (filteredByCategory === 'Toutes les catégories') {
+              if (filteredByCategory === 'Toutes les compétences') {
                 return true;
               }
               return skill.category.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(filteredByCategory.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''));

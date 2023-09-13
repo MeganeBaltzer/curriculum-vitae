@@ -10,7 +10,7 @@ const CategoryFilter = ({ filteredByCategory, setfilteredByCategory }) => (
     >
       <Form.Select
         className="mb-2"
-        aria-label="Catégorie de recette"
+        aria-label="Catégorie de compétence"
         style={{ color: '#4a536b' }}
         value={filteredByCategory}
         onChange={(event) => {
@@ -18,7 +18,7 @@ const CategoryFilter = ({ filteredByCategory, setfilteredByCategory }) => (
           (setfilteredByCategory(event.target.value));
         }}
       >
-        <option value="Toutes les catégories">Toutes les catégories</option>
+        <option value="Toutes les compétencew">Toutes les compétences</option>
         <option value="Front-end">Front-end</option>
         <option value="Back-end">Back-end</option>
         <option value="Management">Management</option>

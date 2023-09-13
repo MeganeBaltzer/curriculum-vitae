@@ -12,7 +12,7 @@
 .jobsResearch-background {
 
   text-align: center;
-  padding: 15%;
+  padding: 10%;
   background-image: url('../../assets/img//bureau.jpg');
   background-size: cover;
   background-repeat: no-repeat; 
@@ -23,7 +23,7 @@
 
   padding: 15%;
   background-color: transparent;
-  background: linear-gradient(to left, #a7a7af , #373741);
+  background: linear-gradient(to right, #a7a7af , #373741);
   background-position: 0% 70%;
 
 }
@@ -36,5 +36,14 @@
   background-color: transparent;
   background: linear-gradient(to top, #a7a7af  , #373741);
   background-position: 20% 0%;
+
+}
+
+.book-background {
+
+  padding: 15%;
+  background-color: transparent;
+  background: linear-gradient(to right, #a7a7af , #e1d8cf);
+  background-position: 0% 70%;
 
 }

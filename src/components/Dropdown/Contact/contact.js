@@ -11,7 +11,6 @@ function Contact() {
   const copyToClipboard = (text) => {
     clipboard(text)
       .then(() => {
-        <p>'Texte copié dans le presse-papiers avec succès'</p>;
         console.log('Texte copié dans le presse-papiers avec succès');
         setIsCopied(true);
         setTimeout(() => {
@@ -19,16 +18,9 @@ function Contact() {
         }, 2000);
       })
       .catch((err) => {
-        <p>'Erreur, le texte n'a pas été copié dans le presse-papiers'</p>;
         console.error('Erreur lors de la copie dans le presse-papiers :', err);
         setIsCopied(false);
       });
-  };
-
-  const adressEmail = 'baltzermegane@gmail.com';
-
-  const sendEmail = () => {
-    window.location.href = `mailto:${adressEmail}`;
   };
 
   return (
@@ -50,9 +42,9 @@ function Contact() {
             4 venelle de la Mésange Bleue, 93160 Noisy-le-Grand
           </ListGroup.Item>
           <ListGroup.Item
-            onClick={sendEmail}
+            onClick={() => copyToClipboard('baltzermegane@gmail.com')}
             style={{ cursor: 'pointer' }}
-            title="Cliquez pour envoyer un mail à Mégane Baltzer"
+            title="Cliquez pour copier l'adresse mail"
           >
             baltzermegane@gmail.com
           </ListGroup.Item>
@@ -71,6 +63,5 @@ function Contact() {
     </div>
   );
 }
-
 
 export default Contact;
