@@ -1,0 +1,32 @@
+.homeContainer {
+
+  @media only screen and (max-width: 1350px) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+}
+
+.homeText {
+
+  color: white;
+
+  @media only screen and (min-width: 1350px) {
+    padding-right: 8em;
+  }
+}
+
+.homeImage img {
+
+  width: auto;
+  height: auto;
+  max-width: 20em;
+  max-height: 20em;
+  object-fit: cover;
+
+  @media only screen and (max-width: 1350px) {
+    max-width: 80%;
+  }
+
+}

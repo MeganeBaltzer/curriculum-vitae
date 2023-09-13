@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 import { Routes, Route, useLocation } from 'react-router-dom';
 
 import Header from '../Header&Footer/Header/header';
@@ -15,13 +16,15 @@ import './styles.scss';
 
 function App() {
   const location = useLocation();
+  const isHome = location.pathname === '/';
   const isJobsResearchPage = location.pathname === '/jobsResearch';
+  const isSkillsPage = location.pathname === '/skills';
 
   return (
     <div className="app">
       <Header />
 
-      <main className={isJobsResearchPage ? 'background-image' : 'main'}>
+      <main className={isHome ? 'home-background' : isJobsResearchPage ? 'jobsResearch-background' : isSkillsPage ? 'skills-background' : 'main'}>
         <Routes>
           <Route
             path="/"

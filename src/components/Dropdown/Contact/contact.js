@@ -25,6 +25,12 @@ function Contact() {
       });
   };
 
+  const adressEmail = 'baltzermegane@gmail.com';
+
+  const sendEmail = () => {
+    window.location.href = `mailto:${adressEmail}`;
+  };
+
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <Card style={{ width: '25rem' }}>
@@ -44,9 +50,9 @@ function Contact() {
             4 venelle de la Mésange Bleue, 93160 Noisy-le-Grand
           </ListGroup.Item>
           <ListGroup.Item
-            onClick={() => copyToClipboard('baltzermegane@gmail.com')}
+            onClick={sendEmail}
             style={{ cursor: 'pointer' }}
-            title="Cliquez pour copier l'adresse mail"
+            title="Cliquez pour envoyer un mail à Mégane Baltzer"
           >
             baltzermegane@gmail.com
           </ListGroup.Item>

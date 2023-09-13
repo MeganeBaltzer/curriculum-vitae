@@ -22,14 +22,14 @@ export default [
   },
   {
     date: 'juin 2019 - mars 2021',
-    title: 'Chef de projets webmarketing & communication chez Auroremarket.fr (LaFourche.fr actuellement)',
+    title: 'Chef de projets webmarketing & communication chez Auroremarket.fr / LaFourche.fr',
     description: 'Gestion de la communication d\'un portefeuille clients, encadrement du développement du blog et de la page facebook, gestion des newsletters, webmarketing & management',
     url: 'https://lafourche.fr/',
     contrat: 'CDI',
   },
   {
     date: 'mars 2021 - juin 2022',
-    title: 'Responsable éditoriale et des relations presse chez Auroremarket.fr (LaFourche.fr actuellement)',
+    title: 'Responsable éditoriale et des relations presse chez Auroremarket.fr / LaFourche.fr',
     description: 'Réalisation de communiqués et dossiers de presse, coordination avec différentes agences de presse, prise contact avec des journalistes, gestion de projets pour reportages et/ou articles de presse, gestion des partenariats de la marque, rédaction d\'articles news, politiques et écologiques, relecture des différents suppports de communication de la marque, management',
     url: 'https://lafourche.fr/',
     contrat: 'CDI',

@@ -12,7 +12,7 @@ const NameFilter = ({ filteredByTheName, setFilteredByTheName }) => (
         <Form.Control
           type="text"
           className="text-center"
-          placeholder="Saisir une compétence..."
+          placeholder="Saisissez une compétence..."
           value={filteredByTheName}
           onChange={(event) => {
             setFilteredByTheName(event.target.value);
