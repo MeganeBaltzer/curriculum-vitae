@@ -1,4 +1,4 @@
-/* eslint-disable max-len */
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import booksdata from '../../../datas/book';
 import './styles.scss';
@@ -8,11 +8,14 @@ function Book() {
     <Carousel data-bs-theme="dark" className="carousel">
       {booksdata.map((book) => (
         <Carousel.Item className="bookImageContainer" key={book.id}>
-          <img
-            className="bookImage"
-            src={book.image}
-            alt={book.name}
-          />
+          <a href={book.link} target="_blank" rel="noopener noreferrer">
+            <img
+              className="bookImage"
+              src={book.image}
+              alt={book.name}
+              title="Cliquez ici pour visiter le site"
+            />
+          </a>
           <Carousel.Caption className="bookTextContainer">
             <h1 className="bookText" style={{ fontFamily: 'Times New Roman' }}>
               {book.name}

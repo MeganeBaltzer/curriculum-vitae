@@ -21,12 +21,13 @@ function App() {
   const isJobsResearchPage = location.pathname === '/jobsResearch';
   const isSkillsPage = location.pathname === '/skills';
   const isMyBookPage = location.pathname === '/mybook';
+  const isSchoolPage = location.pathname === '/school';
 
   return (
     <div className="app">
       <Header />
 
-      <main className={isHome ? 'home-background' : isJobsResearchPage ? 'jobsResearch-background' : isSkillsPage ? 'skills-background' : isMyBookPage ? 'book-background' : 'main'}>
+      <main className={isHome ? 'home-background' : isJobsResearchPage ? 'jobsResearch-background' : isSkillsPage ? 'skills-background' : isMyBookPage ? 'book-background' : isSchoolPage ? 'school-background' : 'main'}>
         <Routes>
           <Route
             path="/"
