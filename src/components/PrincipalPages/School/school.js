@@ -39,11 +39,11 @@ const School = () => {
       <h1 className="title1">O'Clock, une école virtuelle pour devenir<br />un développeur web compétent et diplômé</h1>
       <div className="container">
         <Card className="card" style={{ display: 'flex', alignItems: 'center' }}>
-          <Card.Img className="anim schoolImg" style={{ width: '40%', maxHeight: '50%' }} title="Cliquez ici pour visiter le site O'Clock" variant="top" src={oClock} onClick={oClockRedirection} aria-label="Logo O'Clock" />
+          <Card.Img className="anim schoolImg" title="Cliquez ici pour visiter le site O'Clock" variant="top" src={oClock} onClick={oClockRedirection} aria-label="Logo O'Clock" />
         </Card>
         <br />
         <Card className="card" style={{ display: 'flex', alignItems: 'center' }}>
-          <Card.Img className="anim schoolImg" style={{ width: '60%', maxHeight: '50%' }} title="Cliquez ici pour agrandir l'image" variant="bottom" src={oClockSite} onClick={openModal} aria-label="Page formation du site O'Clock" />
+          <Card.Img className="anim schoolImg" title="Cliquez ici pour agrandir l'image" variant="bottom" src={oClockSite} onClick={openModal} aria-label="Page formation du site O'Clock" />
         </Card>
       </div>
       <Modal
