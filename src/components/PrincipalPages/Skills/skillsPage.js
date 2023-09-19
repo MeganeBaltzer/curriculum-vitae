@@ -9,7 +9,7 @@ function SkillsPage() {
   const [filteredByCategory, setfilteredByCategory] = useState('');
 
   return (
-    <div>
+    <div style={{ padding: '1em' }}>
       <NameFilter
         filteredByTheName={filteredByTheName}
         setFilteredByTheName={setFilteredByTheName}

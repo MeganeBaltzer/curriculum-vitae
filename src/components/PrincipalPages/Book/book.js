@@ -1,15 +1,24 @@
 /* eslint-disable max-len */
 import Carousel from 'react-bootstrap/Carousel';
-import BookCarousel from './carousel';
 import booksdata from '../../../datas/book';
+import './styles.scss';
 
 function Book() {
   return (
-    <Carousel>
+    <Carousel data-bs-theme="dark" className="carousel">
       {booksdata.map((book) => (
-        <div>
-          <BookCarousel key={book.id} {...book} />
-        </div>
+        <Carousel.Item className="bookImageContainer" key={book.id}>
+          <img
+            className="bookImage"
+            src={book.image}
+            alt={book.name}
+          />
+          <Carousel.Caption className="bookTextContainer">
+            <h1 className="bookText" style={{ fontFamily: 'Times New Roman' }}>
+              {book.name}
+            </h1>
+          </Carousel.Caption>
+        </Carousel.Item>
       ))}
     </Carousel>
   );

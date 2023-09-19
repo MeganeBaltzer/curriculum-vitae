@@ -18,7 +18,7 @@ const CategoryFilter = ({ filteredByCategory, setfilteredByCategory }) => (
           (setfilteredByCategory(event.target.value));
         }}
       >
-        <option value="Toutes les compétencew">Toutes les compétences</option>
+        <option value="Toutes les compétences">Toutes les compétences</option>
         <option value="Front-end">Front-end</option>
         <option value="Back-end">Back-end</option>
         <option value="Management">Management</option>
