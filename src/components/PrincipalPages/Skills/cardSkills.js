@@ -8,11 +8,11 @@ const CardSkills = ({
 }) => (
   <Col>
     <Container>
-      <Card className="p-0 box anim position-relative">
+      <Card className="p-0 box position-relative">
         <Card.Header
           className={`text-center text-${text} bg-${color}`}
           style={{
-            fontSize: '1em', width: 'auto', height: '4em', display: 'flex', justifyContent: 'center', alignItems: 'center',
+            fontSize: '1em', width: 'auto', height: '4em', display: 'flex', justifyContent: 'center', alignItems: 'center', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.3)',
           }}
         >{name}
         </Card.Header>

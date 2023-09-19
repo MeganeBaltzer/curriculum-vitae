@@ -24,6 +24,7 @@ import team from '../assets/img/skills/team.jpg';
 const skills = [
   {
     name: 'HTML5',
+    champs: '',
     level: '5',
     experience: '10 mois',
     category: 'HTML',
@@ -34,6 +35,7 @@ const skills = [
   },
   {
     name: 'CSS3',
+    champs: '',
     level: '4',
     experience: '10 mois',
     category: 'CSS',
@@ -44,6 +46,7 @@ const skills = [
   },
   {
     name: 'Javascript',
+    champs: '',
     level: '4',
     experience: '2 mois',
     category: 'Front-end',
@@ -54,6 +57,7 @@ const skills = [
   },
   {
     name: 'ReactJS',
+    champs: '',
     level: '5',
     experience: '5 mois',
     category: 'Front-end',
@@ -64,6 +68,7 @@ const skills = [
   },
   {
     name: 'Bootstrap',
+    champs: '',
     level: '5',
     experience: '7 mois',
     category: 'CSS',
@@ -74,6 +79,7 @@ const skills = [
   },
   {
     name: 'Axios',
+    champs: '',
     level: '4',
     experience: '5 mois',
     category: 'Front-end',
@@ -84,6 +90,7 @@ const skills = [
   },
   {
     name: 'Redux',
+    champs: '',
     level: '5',
     experience: '5 mois',
     category: 'Front-end',
@@ -94,6 +101,7 @@ const skills = [
   },
   {
     name: 'React-jwt',
+    champs: '',
     level: '3',
     experience: '2 mois',
     category: 'Front-end',
@@ -104,6 +112,7 @@ const skills = [
   },
   {
     name: 'React-Router-Dom',
+    champs: '',
     level: '5',
     experience: '5 mois',
     category: 'Front-end',
@@ -114,6 +123,7 @@ const skills = [
   },
   {
     name: 'emailJS',
+    champs: '',
     level: '5',
     experience: '5 mois',
     category: 'Front-end',
@@ -124,6 +134,7 @@ const skills = [
   },
   {
     name: 'Management',
+    champs: 'management, humain, encadrement, direction',
     level: '5',
     experience: '5 ans',
     category: 'Management',
@@ -134,6 +145,7 @@ const skills = [
   },
   {
     name: 'Travail en équipe',
+    champs: '',
     level: '5',
     experience: '8 ans',
     category: 'Soft skills',
@@ -144,6 +156,7 @@ const skills = [
   },
   {
     name: 'Sociabilité',
+    champs: '',
     level: '5',
     experience: '/',
     category: 'Soft skills',
@@ -154,6 +167,7 @@ const skills = [
   },
   {
     name: 'Rigueur',
+    champs: '',
     level: '5',
     experience: '/',
     category: 'Soft skills',
@@ -164,6 +178,7 @@ const skills = [
   },
   {
     name: 'Autonomie',
+    champs: '',
     level: '4',
     experience: '/',
     category: 'Soft skills',
@@ -174,6 +189,7 @@ const skills = [
   },
   {
     name: 'Polyvalence',
+    champs: 't',
     level: '4',
     experience: '/',
     category: 'Soft skills',
@@ -184,6 +200,7 @@ const skills = [
   },
   {
     name: 'Rédaction',
+    champs: '',
     level: '5',
     experience: '8 ans',
     category: 'Langues',
@@ -194,6 +211,7 @@ const skills = [
   },
   {
     name: 'SEO',
+    champs: '',
     level: '4',
     experience: '8 ans',
     category: 'SEO',
@@ -204,6 +222,7 @@ const skills = [
   },
   {
     name: 'Anglais',
+    champs: '',
     level: '3',
     experience: 'C1',
     category: 'Langues',
@@ -214,6 +233,7 @@ const skills = [
   },
   {
     name: 'PHP',
+    champs: '',
     level: '3',
     experience: '4 mois',
     category: 'Back-end',
@@ -224,6 +244,7 @@ const skills = [
   },
   {
     name: 'MySql',
+    champs: '',
     level: '3',
     experience: '4 mois',
     category: 'Back-end',

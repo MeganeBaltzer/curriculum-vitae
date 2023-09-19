@@ -51,9 +51,12 @@ const School = () => {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Image en taille réelle"
+        onClick={closeModal}
       >
-        <img className="image-modal" src={oClockSite} alt="capture d'écran lisible du site" />
-        <button style={{ backgroundColor: '#373741', color: 'white', marginTop: '5px' }} onClick={closeModal} type="button" alt="bouton de fermeture">Fermer la fenêtre</button>
+        <a className="imageSchoolContainer" onClick={closeModal}>
+          <img className="image-modal" src={oClockSite} alt="capture d'écran lisible du site" />
+          <button style={{ backgroundColor: '#373741', color: 'white', marginTop: '5px' }} onClick={closeModal} type="button" alt="bouton de fermeture">Fermer la fenêtre</button>
+        </a>
       </Modal>
       <section style={{ padding: '1em' }}>
         <h2>Ma formation : developpeur web & web mobile</h2>
@@ -69,7 +72,7 @@ const School = () => {
         <p>A la suite de formation, je me suis inscrite à l'examen du titre professionnel niveau 5 "Developpeur web et web mobile". C'est avec succès que j'ai passé les tests et ainsi obtenu mon diplôme le 04 août 2023.</p>
         {/* <Image className="anim" onClick={downloadPdf} style={{ width: '15em' }} title="Cliquez ici pour télécharger le titre professionnel" src={Diplome} fluide /> */}
       </section>
-    </div>
+    </div >
 
   );
 };

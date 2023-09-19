@@ -16,13 +16,16 @@ const Skills = ({ filteredByTheName, filteredByCategory, skills }) => {
 
   // Mélangez le tableau skills
   const shuffledSkills = shuffleArray(skills);
+  console.log(shuffledSkills);
 
   return (
     <div className="page">
       <section aria-label="Toutes les compétences">
         <Row xs={1} sm={2} md={2} lg={3} xl={4} className="g-4">
           {shuffledSkills
-            .filter((skill) => skill.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(filteredByTheName.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')))
+          // on filtre selon le nom
+            .filter((skill) => skill.champs.toLowerCase().normalize('NFD').replace(/\s/g, '').replace(/[\u0300-\u036f]/g, '')
+              .includes(filteredByTheName.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s/g, '')))
             // on filtre selon les catégories
             .filter((skill) => {
               if (filteredByCategory === 'Toutes les compétences') {
