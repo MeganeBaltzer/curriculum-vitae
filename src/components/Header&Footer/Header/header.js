@@ -15,7 +15,7 @@ function Header() {
         expand="lg"
         className="px-4 py-0 sticky-header"
         style={{
-          position: 'fixed', top: '0', width: '100%', zIndex: '1000'
+          position: 'fixed', top: '0', width: '100%', zIndex: '1000',
         }}
         bg="blue"
         variant="dark"
