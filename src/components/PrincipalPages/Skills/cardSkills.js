@@ -17,12 +17,12 @@ const CardSkills = ({
         >{name}
         </Card.Header>
         <Card.Img
-          style={{ width: '300px', height: '11em' }}
+          style={{ width: '300px', height: '11em', borderRadius: '0' }}
           variant="top"
           src={picture}
           alt={name}
         />
-        <Card.Body>
+        <Card.Body style={{ backgroundColor: 'white' }}>
           <Card.Text
             className="text-center text-blue"
             aria-label="Bouton pour en savoir plus sur la compétence"
