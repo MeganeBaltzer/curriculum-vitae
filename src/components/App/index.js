@@ -51,10 +51,10 @@ function App() {
               <JobsResearch />
             )}
           />
-          <Route
+          {/* <Route
             path="/mybook"
             element={<Book />}
-          />
+          /> */}
           <Route
             path="/contact"
             element={<Contact />}

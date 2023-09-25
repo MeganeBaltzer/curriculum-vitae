@@ -4,7 +4,7 @@ export default [
   {
     image: yafaim,
     name: 'YAFAIM',
-    link: 'https://react-bootstrap.netlify.app/docs/components/carousel',
+    link: 'https://www.yafaim.fr/',
     id: '1',
   },
   // {

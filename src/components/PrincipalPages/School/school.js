@@ -70,9 +70,12 @@ const School = () => {
         <p>Arrivée au dernier mois de la formation, j'ai décidé de suivre la spécialité Javascript avec la bibliothèque <em>React</em>. J'ai fait ce choix pour deux raisons: la première est que j'ai une affinité plus prononcée pour l'aspect visuel d'un site et la seconde est qu'une fois le socle de la formation achevé, je me suis rendue compte que nous avions eu l'occasion de pousser nos connaissances de façon plus importante sur la partie back d'un site. Choisir le front pour ma spécialité finale était une façon d'obtenir un profil plus complet, si ce n'est fullstack. Une fois les bases acquises sur <em>React</em>, nous nous sommes penchés sur <em>Axios</em> afin de nous permettre la connexion avec les API, puis <em>Redux</em> afin d'optimiser nos applications si besoin. </p>
         <h3>Mon diplôme "Developpeur web et web mobile"</h3>
         <p>A la suite de formation, je me suis inscrite à l'examen du titre professionnel niveau 5 "Developpeur web et web mobile". C'est avec succès que j'ai passé les tests et ainsi obtenu mon diplôme le 04 août 2023.</p>
+        <a href="https://www.yafaim.fr/" target="u_blank" aria-label="bouton de redirection vers le site yafaim.fr">Mon site d'apothéose</a>
+        <br />
+        <dfn>Apothéose* : examen de fin de formation</dfn>
         {/* <Image className="anim" onClick={downloadPdf} style={{ width: '15em' }} title="Cliquez ici pour télécharger le titre professionnel" src={Diplome} fluide /> */}
       </section>
-    </div >
+    </div>
 
   );
 };

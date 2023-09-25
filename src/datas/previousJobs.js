@@ -2,14 +2,14 @@ export default [
   {
     date: 'mai 2016 - février 2018',
     title: 'Responsable éditoriale chez Ohmymag.com',
-    description: 'Gestion d\'une communauté de 1,7 million de lecteurs, gestion des rubriques people/séries tv, news & santé, analyse de statistiques, interviews people, chef de projets vidéos, community management, management de stagiaires et de pigistes',
+    description: 'Gestion d\'une communauté de 1,7 million de lecteurs, gestion des rubriques people/séries tv, news & santé, analyse de statistiques, interviews people, chef de projets vidéo, community management, management de stagiaires et de pigistes',
     url: 'https://www.ohmymag.com/',
     contrat: 'CDI',
   },
   {
     date: 'novembre 2018 - mai 2019',
     title: 'Attachée de presse pour Alma Beauté',
-    description: 'Rédaction d\'un dossier et d\'un communiqué de presse, mise en relation avec des journalistes neauté, mode et santé, réalisation d\'interview',
+    description: 'Rédaction d\'un dossier et d\'un communiqué de presse, mise en relation avec des journalistes beauté, mode et santé, réalisation d\'interview',
     url: 'https://www.facebook.com/almavivreenbeaute/?locale=fr_FR',
     contrat: 'Freelance',
   },

@@ -8,7 +8,7 @@ import './styles.scss';
 
 const Home = () => (
   <Row className="homeContainer">
-    <Col xs={12} mg lg={4} className="homeImage" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <Col xs={12} lg={4} className="homeImage" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <Card
         style={{
           width: '18rem', textAlign: 'center', color: 'white', backgroundColor: '#373741', marginBottom: '2em', boxShadow: '0px 0px 40px rgba(255, 255, 255, 0.3)',
@@ -27,7 +27,7 @@ const Home = () => (
       </Card>
       <Image style={{ marginBottom: '3em' }} src={MegAnim} fluid />
     </Col>
-    <Col xs={12} md lg={8} className="homeText">
+    <Col xs={12} lg={8} className="homeText">
       <h1 className="mb-2">Qui suis-je ?</h1>
       <div style={{ borderTop: '0.5px solid #94A1C2' }} />
       <p className="presentation mt-5 mb-3">A l'âge de 31 ans, je vis à Noisy-le-Grand, en région parisienne. Je suis en concubinage avec mon conjoint et depuis 2021, nous avons une petite fille.</p>

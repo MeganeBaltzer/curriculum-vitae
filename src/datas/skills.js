@@ -24,7 +24,7 @@ import team from '../assets/img/skills/team.jpg';
 const skills = [
   {
     name: 'HTML5',
-    champs: 'HTML5, front, balise, semantique',
+    champs: 'HTML5, front',
     level: '5',
     experience: '10 mois',
     category: 'HTML',
@@ -35,10 +35,10 @@ const skills = [
   },
   {
     name: 'CSS3',
-    champs: 'CSS3, design, front, scss, visuel',
+    champs: 'CSS3, front, scss',
     level: '4',
     experience: '10 mois',
-    category: 'CSS',
+    category: 'Design',
     picture: css,
     color: 'blue',
     text: 'white',
@@ -57,7 +57,7 @@ const skills = [
   },
   {
     name: 'ReactJS',
-    champs: 'ReactJS, front, bibliotheque, composant',
+    champs: 'ReactJS, front, bibliotheque',
     level: '5',
     experience: '5 mois',
     category: 'Front-end',
@@ -68,10 +68,10 @@ const skills = [
   },
   {
     name: 'Bootstrap',
-    champs: 'Bootstrap, css, design, visuel, front',
+    champs: 'Bootstrap, front',
     level: '5',
     experience: '7 mois',
-    category: 'CSS',
+    category: 'Design',
     picture: bootstrap,
     color: 'blue',
     text: 'white',
@@ -79,7 +79,7 @@ const skills = [
   },
   {
     name: 'Axios',
-    champs: 'Axios, API, connexion, front, bibliotheque',
+    champs: 'Axios, front, bibliotheque',
     level: '4',
     experience: '5 mois',
     category: 'Front-end',
@@ -90,7 +90,7 @@ const skills = [
   },
   {
     name: 'Redux',
-    champs: 'Redux, front, optimisation, bibliotheque, store, action, reducer',
+    champs: 'Redux, front, bibliotheque',
     level: '5',
     experience: '5 mois',
     category: 'Front-end',
@@ -101,7 +101,7 @@ const skills = [
   },
   {
     name: 'React-jwt',
-    champs: 'React-jwt, front, bibliotheque, authentification, token',
+    champs: 'React-jwt, front, bibliotheque',
     level: '3',
     experience: '2 mois',
     category: 'Front-end',
@@ -112,7 +112,7 @@ const skills = [
   },
   {
     name: 'React-Router-Dom',
-    champs: 'React-Router-Dom, front, module, route, redirection',
+    champs: 'React-Router-Dom, front',
     level: '5',
     experience: '5 mois',
     category: 'Front-end',
@@ -123,7 +123,7 @@ const skills = [
   },
   {
     name: 'emailJS',
-    champs: 'emailJS, front, messagerie, contact, plateforme',
+    champs: 'emailJS, front, messagerie',
     level: '5',
     experience: '5 mois',
     category: 'Front-end',
@@ -134,7 +134,7 @@ const skills = [
   },
   {
     name: 'Management',
-    champs: 'management, humain, encadrement, direction',
+    champs: 'management',
     level: '5',
     experience: '5 ans',
     category: 'Management',
@@ -145,7 +145,7 @@ const skills = [
   },
   {
     name: 'Travail en équipe',
-    champs: 'Travail en équipe, humain, cohesion',
+    champs: 'Travail en équipe',
     level: '5',
     experience: '8 ans',
     category: 'Soft skills',
@@ -156,7 +156,7 @@ const skills = [
   },
   {
     name: 'Sociabilité',
-    champs: 'Sociabilité, humai, cohesion',
+    champs: 'Sociabilité',
     level: '5',
     experience: '/',
     category: 'Soft skills',
@@ -167,7 +167,7 @@ const skills = [
   },
   {
     name: 'Rigueur',
-    champs: 'Rigueur, professionalisme, engagement',
+    champs: 'Rigueur',
     level: '5',
     experience: '/',
     category: 'Soft skills',
@@ -178,7 +178,7 @@ const skills = [
   },
   {
     name: 'Autonomie',
-    champs: 'Autonomie, independance',
+    champs: 'Autonomie',
     level: '4',
     experience: '/',
     category: 'Soft skills',
@@ -200,7 +200,7 @@ const skills = [
   },
   {
     name: 'Rédaction',
-    champs: 'Rédaction, langue, français, orthographe, semantique',
+    champs: 'Rédaction, langue, français',
     level: '5',
     experience: '8 ans',
     category: 'Langues',
@@ -211,7 +211,7 @@ const skills = [
   },
   {
     name: 'SEO',
-    champs: 'SEO, google, moteur de recherche, semantique, tag',
+    champs: 'SEO',
     level: '4',
     experience: '8 ans',
     category: 'SEO',
@@ -244,7 +244,7 @@ const skills = [
   },
   {
     name: 'MySql',
-    champs: 'MySql, back, base de données',
+    champs: 'MySql, back',
     level: '3',
     experience: '4 mois',
     category: 'Back-end',

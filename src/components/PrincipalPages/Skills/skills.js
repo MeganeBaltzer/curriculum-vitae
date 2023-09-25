@@ -16,12 +16,11 @@ const Skills = ({ filteredByTheName, filteredByCategory, skills }) => {
 
   // Mélangez le tableau skills
   const shuffledSkills = shuffleArray(skills);
-  console.log(shuffledSkills);
 
   return (
     <div className="page">
       <section aria-label="Toutes les compétences">
-        <Row xs={1} sm={2} md={2} lg={3} xl={4} className="g-4">
+        <Row xs={1} sm={2} md={2} lg={3} xl={3} xxl={4} className="g-4">
           {shuffledSkills
           // on filtre selon le nom
             .filter((skill) => skill.champs.toLowerCase().normalize('NFD').replace(/\s/g, '').replace(/[\u0300-\u036f]/g, '')

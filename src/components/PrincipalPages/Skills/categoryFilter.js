@@ -24,7 +24,7 @@ const CategoryFilter = ({ filteredByCategory, setfilteredByCategory }) => (
         <option value="Management">Management</option>
         <option value="Langues">Langues</option>
         <option value="HTML">HTML</option>
-        <option value="CSS">CSS</option>
+        <option value="Design">Design</option>
         <option value="SEO">SEO</option>
         <option value="Soft Skills">Soft Skills</option>
       </Form.Select>

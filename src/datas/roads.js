@@ -15,10 +15,10 @@ export default [
     route: '/skills',
     label: 'Mes compétences',
   },
-  {
-    route: '/mybook',
-    label: 'Mon book',
-  },
+  // {
+  //   route: '/mybook',
+  //   label: 'Mon book',
+  // },
   {
     route: '/jobsResearch',
     label: 'Ma recherche d\'emploi',

@@ -14,7 +14,7 @@ const PreviousJobs = () => (
     <Row>
       <Col xs={12} md lg={6} className="textandimages">
         <h1 className="title1bis">Quelles ont été les études précédentes qui m'ont menée jusqu'ici ?</h1>
-        <p className="presentation">Après une licence d'Histoire obtenue à l'Université Paris-Est de Marne-la-vallée en 2015, j'ai longtemps hésité concernant la suite de mes études : faire un doctorat en histoire ou devenir journaliste, ma vocation de jeunesse. J'ai laissé le destin décidé pour moi en ne postulant qu'à une seule école de journalisme, l'ISCPA Paris.</p>
+        <p className="presentation">Après une licence d'Histoire obtenue à l'Université Paris-Est de Marne-la-vallée en 2015, j'ai longtemps hésité concernant la suite de mes études : faire un doctorat en histoire ou devenir journaliste, ma vocation de jeunesse. J'ai laissé le destin décider pour moi en ne postulant qu'à une seule école de journalisme, l'ISCPA Paris.</p>
         <p className="presentation mb-5">J'ai été reçue par l'école et je me suis donc lancée dans des études de journalisme. En 2016, à la fin de mon Master 1, j'ai obtenu un stage de 6 mois en tant que rédactrice beauté. Ce dernier s'est si bien passé que la rédactrice en chef m'a tout de suite proposé un emploi en CDI. Etant donné la difficulté du marché dans ce milieu, j'ai donc décidé de ne pas terminer mon Master 2 et de commencer dans la vie active au sein de la rédaction d'<em>Ohmymag.com</em>.</p>
         <div className="galery">
           <img
