@@ -9,7 +9,7 @@ import PreviousJobs from '../PrincipalPages/PreviousJobs/previousJobs';
 import School from '../PrincipalPages/School/school';
 import SkillsPage from '../PrincipalPages/Skills/skillsPage';
 import JobsResearch from '../PrincipalPages/JobsResearch/jobsResearch';
-import Book from '../PrincipalPages/Book/book';
+// import Book from '../PrincipalPages/Book/book';
 
 import Contact from '../Dropdown/Contact/contact';
 
