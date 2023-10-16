@@ -1,0 +1,10 @@
+{
+  "project": "./dist", 
+  "domain": "cv-meganebaltzer.surge.sh",
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 import { createRoot } from 'react-dom/client';
 import App from 'src/components/App';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import ScrollToTop from 'src/components/ScrollToTop/scrollToTop';
 
 const rootReactElement = (
-  <BrowserRouter>
+  <HashRouter>
     <ScrollToTop />
     <App />
-  </BrowserRouter>
+  </HashRouter>
 );
 
 const root = createRoot(document.getElementById('root'));

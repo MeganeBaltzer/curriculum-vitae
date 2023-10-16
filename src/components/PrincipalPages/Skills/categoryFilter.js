@@ -23,10 +23,9 @@ const CategoryFilter = ({ filteredByCategory, setfilteredByCategory }) => (
         <option value="Back-end">Back-end</option>
         <option value="Management">Management</option>
         <option value="Langues">Langues</option>
-        <option value="HTML">HTML</option>
-        <option value="Design">Design</option>
+        <option value="Integration">Integration</option>
         <option value="SEO">SEO</option>
-        <option value="Soft Skills">Soft Skills</option>
+        <option value="Soft skills">Soft skills</option>
       </Form.Select>
     </Form>
   </Container>

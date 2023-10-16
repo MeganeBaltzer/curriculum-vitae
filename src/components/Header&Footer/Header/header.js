@@ -54,11 +54,26 @@ function Header() {
                 <h1 style={{ fontSize: '1em', marginBottom: 0 }}>{data.label}</h1>
               </NavLink>
             ))}
-            <NavDropdown style={{ marginTop: '-1%' }} title="Autres" id="nav-dropdown">
-              <NavDropdown.Item as={Link} to="https://www.linkedin.com/in/megane-baltzer/" target="u_blank" eventKey="4.1">
+            <NavDropdown
+              style={{ marginTop: '-1%' }}
+              title="Autres"
+              id="nav-dropdown"
+            >
+              <NavDropdown.Item
+                as={Link}
+                to="https://www.linkedin.com/in/megane-baltzer/"
+                target="u_blank"
+                eventKey="4.1"
+                onClick={handleToggleClose}
+              >
                 Mon Linkedin
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/contact" eventKey="4.3">
+              <NavDropdown.Item
+                as={Link}
+                to="/contact"
+                eventKey="4.3"
+                onClick={handleToggleClose}
+              >
                 Me contacter
               </NavDropdown.Item>
             </NavDropdown>
